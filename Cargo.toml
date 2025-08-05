@@ -1,0 +1,14 @@
+[package]
+name = "kilate"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "lib/lib.rs"
+
+[dependencies]
+colored = "2"
+
+[[bin]]
+name = "bin"
+path = "bin/main.rs"
